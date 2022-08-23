@@ -1,0 +1,109 @@
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.dll.config
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.dll
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.pdb
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csprojResolveAssemblyReference.cache
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.dll
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.pdb
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.GenerateResource.cache
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.CoreCompileInputs.cache
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.pdb
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.dll.config
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.pdb
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.Core.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.CopyComplete
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Buffers.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Memory.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Numerics.Vectors.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Encodings.Web.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Json.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.ValueTuple.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Buffers.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Memory.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Numerics.Vectors.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Encodings.Web.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Json.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.ValueTuple.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.CaptureClient.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\log4net.dll
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\log4net.xml
+D:\7.1 Files\BPA.net\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.AssemblyReference.cache
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.dll.config
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.pdb
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.CaptureClient.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.Core.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\log4net.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Buffers.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Memory.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Numerics.Vectors.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Encodings.Web.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Json.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.ValueTuple.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.CaptureClient.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\log4net.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Buffers.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Memory.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Numerics.Vectors.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Encodings.Web.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Json.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.ValueTuple.xml
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.AssemblyReference.cache
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.GenerateResource.cache
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.CoreCompileInputs.cache
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.CopyComplete
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.dll
+D:\ProdCodebase\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.pdb
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.dll.config
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\CNO.BPA.MDWAudit.pdb
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.CaptureClient.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.Core.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\log4net.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Buffers.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Memory.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Numerics.Vectors.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Encodings.Web.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Json.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.ValueTuple.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Emc.InputAccel.CaptureClient.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\log4net.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Buffers.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Memory.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Numerics.Vectors.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Encodings.Web.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Text.Json.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\bin\Debug\System.ValueTuple.xml
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.AssemblyReference.cache
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.GenerateResource.cache
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.CoreCompileInputs.cache
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.CopyComplete
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.dll
+D:\Ashraf\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.pdb

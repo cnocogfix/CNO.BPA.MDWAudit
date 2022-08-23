@@ -1,0 +1,30 @@
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.dll.config
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.dll
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.pdb
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\Emc.InputAccel.CaptureClient.dll
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\Emc.InputAccel.CaptureClient.xml
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.csprojResolveAssemblyReference.cache
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.dll
+\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.pdb
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.dll.config
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.dll
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.pdb
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\log4net.dll
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.dll
+C:\Users\jaekwang.seo\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.pdb
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.dll.config
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.dll
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\CNO.BPA.MDWAudit.pdb
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\x86\Release\log4net.dll
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.csprojResolveAssemblyReference.cache
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.dll
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Release\CNO.BPA.MDWAudit.pdb
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.dll.config
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.dll
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.pdb

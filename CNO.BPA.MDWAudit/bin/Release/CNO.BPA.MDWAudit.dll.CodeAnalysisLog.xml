@@ -1,0 +1,1218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Namespaces>
+  <Namespace Name="CNO.BPA.MDWAudit">
+   <Messages>
+    <Message Id="BPA" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'BPA' in namespace name 'CNO.BPA.MDWAudit' by changing it to 'Bpa'.</Issue>
+    </Message>
+    <Message Id="CNO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'CNO' in namespace name 'CNO.BPA.MDWAudit' by changing it to 'Cno'.</Issue>
+    </Message>
+    <Message Id="MDW" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'MDW' in namespace name 'CNO.BPA.MDWAudit' by changing it to 'Mdw'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="CNO.BPA.MDWAudit.DataHandler">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'CNO.BPA.MDWAudit.DataHandler' with another namespace.</Issue>
+    </Message>
+    <Message Id="BPA" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'BPA' in namespace name 'CNO.BPA.MDWAudit.DataHandler' by changing it to 'Bpa'.</Issue>
+    </Message>
+    <Message Id="CNO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'CNO' in namespace name 'CNO.BPA.MDWAudit.DataHandler' by changing it to 'Cno'.</Issue>
+    </Message>
+    <Message Id="MDW" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'MDW' in namespace name 'CNO.BPA.MDWAudit.DataHandler' by changing it to 'Mdw'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="\\JK-DESKTOP\Dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\bin\Release\CNO.BPA.MDWAudit.dll">
+   <Modules>
+    <Module Name="cno.bpa.mdwaudit.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'CNO.BPA.MDWAudit.dll' with a strong name key.</Issue>
+      </Message>
+      <Message Id="BPA" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'BPA' in assembly name 'CNO.BPA.MDWAudit.dll' by changing it to 'Bpa'.</Issue>
+      </Message>
+      <Message Id="CNO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'CNO' in assembly name 'CNO.BPA.MDWAudit.dll' by changing it to 'Cno'.</Issue>
+      </Message>
+      <Message Id="MDW" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'MDW' in assembly name 'CNO.BPA.MDWAudit.dll' by changing it to 'Mdw'.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Mark 'CNO.BPA.MDWAudit.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">Because assembly 'CNO.BPA.MDWAudit.dll' contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="CNO.BPA.MDWAudit">
+       <Types>
+        <Type Name="BatchDetail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BatchAgeing" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.BatchAgeing' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BatchIssues" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.BatchIssues' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BatchNo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.BatchNo' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BatchPriority" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.BatchPriority' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BoxNo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.BoxNo' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateMDWCover" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.CreateMDWCover' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DefaultAutoRejectPath" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DefaultAutoRejectPath' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DefaultRejectPath" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DefaultRejectPath' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DefaultXLSPath" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DefaultXLSPath' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DeletedBatchPath" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DeletedBatchPath' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Department" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.Department' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#determineBatchPriority()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="determine" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="BatchDetail.cs" Line="56">Correct the casing of 'determine' in member name 'BatchDetail.determineBatchPriority()' by changing it to 'Determine'.</Issue>
+            </Message>
+            <Message Id="System.Convert.ToDateTime(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="BatchDetail.cs" Line="58">Because the behavior of 'Convert.ToDateTime(string)' could vary based on the current user's locale settings, replace this call in 'BatchDetail.determineBatchPriority()' with a call to 'Convert.ToDateTime(string, IFormatProvider)'. If the result of 'Convert.ToDateTime(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="BatchDetail.cs" Line="63">Because the behavior of 'Convert.ToInt32(string)' could vary based on the current user's locale settings, replace this call in 'BatchDetail.determineBatchPriority()' with a call to 'Convert.ToInt32(string, IFormatProvider)'. If the result of 'Convert.ToInt32(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="BatchDetail.cs" Line="64">Because the behavior of 'Convert.ToInt32(string)' could vary based on the current user's locale settings, replace this call in 'BatchDetail.determineBatchPriority()' with a call to 'Convert.ToInt32(string, IFormatProvider)'. If the result of 'Convert.ToInt32(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Direct2Workflow" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.Direct2Workflow' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DispatcherProject" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DispatcherProject' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DispCitrixPath" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Disp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Disp' in member name 'BatchDetail.DispCitrixPath' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DispCitrixPath' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DispServerPath" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Disp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Disp' in member name 'BatchDetail.DispServerPath' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DispServerPath' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DocumentCount" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.DocumentCount' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FaxID" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.FaxID' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FaxKey" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.FaxKey' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GenerateXLS" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.GenerateXLS' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InputSource" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.InputSource' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MaxClaimsPerDoc" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.MaxClaimsPerDoc' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mdwMappings" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="mdw" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'mdw' in member name 'BatchDetail.mdwMappings' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.mdwMappings' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MDWMaxDocCount" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.MDWMaxDocCount' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OriginalBatchNo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.OriginalBatchNo' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PrepDate" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.PrepDate' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PrepOperator" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.PrepOperator' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PriorityFactor" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.PriorityFactor' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReceivedDate" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.ReceivedDate' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReceivedDateCRD" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.ReceivedDateCRD' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Rescan" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.Rescan' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ScannerID" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.ScannerID' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SiteID" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.SiteID' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SkipAutoRotate" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.SkipAutoRotate' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TrackPerformance" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.TrackPerformance' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TrackUser" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.TrackUser' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WorkCategory" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'BatchDetail.WorkCategory' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CodeModule" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'CodeModule' because it creates members of the following IDisposable types: 'DataAccess'. If 'CodeModule' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ExecuteTask(Emc.InputAccel.CaptureClient.IClientTask,Emc.InputAccel.CaptureClient.IBatchContext)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="84">'CodeModule.ExecuteTask(IClientTask, IBatchContext)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="76">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'CodeModule.ExecuteTask(IClientTask, IBatchContext)' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="76">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'CodeModule.ExecuteTask(IClientTask, IBatchContext)' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="67">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'CodeModule.ExecuteTask(IClientTask, IBatchContext)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="40">In externally visible method 'CodeModule.ExecuteTask(IClientTask, IBatchContext)', validate parameter 'task' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getBatchDetails(Emc.InputAccel.CaptureClient.IClientTask,Emc.InputAccel.CaptureClient.IBatchContext)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="358">'CodeModule.getBatchDetails(IClientTask, IBatchContext)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getDepartmentSpecifics()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="189">'CodeModule.getDepartmentSpecifics()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getEnvelopeDetails(Emc.InputAccel.CaptureClient.IClientTask,Emc.InputAccel.CaptureClient.IBatchContext)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="535">'CodeModule.getEnvelopeDetails(IClientTask, IBatchContext)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+            <Message Id="System.Convert.ToDateTime(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="506">Because the behavior of 'Convert.ToDateTime(string)' could vary based on the current user's locale settings, replace this call in 'CodeModule.getEnvelopeDetails(IClientTask, IBatchContext)' with a call to 'Convert.ToDateTime(string, IFormatProvider)'. If the result of 'Convert.ToDateTime(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message Id="System.DateTime.ToString(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="506">Because the behavior of 'DateTime.ToString(string)' could vary based on the current user's locale settings, replace this call in 'CodeModule.getEnvelopeDetails(IClientTask, IBatchContext)' with a call to 'DateTime.ToString(string, IFormatProvider)'. If the result of 'DateTime.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#processMDWMappings(Emc.InputAccel.CaptureClient.IClientTask,Emc.InputAccel.CaptureClient.IBatchContext)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="148">'CodeModule.processMDWMappings(IClientTask, IBatchContext)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setBatchValues(Emc.InputAccel.CaptureClient.IClientTask,Emc.InputAccel.CaptureClient.IBatchContext)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="385">Modify 'CodeModule.setBatchValues(IClientTask, IBatchContext)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+             <Issue Certainty="95" Level="CriticalError" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="397">Modify 'CodeModule.setBatchValues(IClientTask, IBatchContext)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+             <Issue Certainty="95" Level="CriticalError" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="473">Modify 'CodeModule.setBatchValues(IClientTask, IBatchContext)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setDBCredentials(Emc.InputAccel.CaptureClient.IClientTask,Emc.InputAccel.CaptureClient.IBatchContext,CNO.BPA.MDWAudit.CustomParameters)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="621">'CodeModule.setDBCredentials(IClientTask, IBatchContext, CustomParameters)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="629">Modify 'CodeModule.setDBCredentials(IClientTask, IBatchContext, CustomParameters)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setEnvelopeValues(Emc.InputAccel.CaptureClient.IClientTask,Emc.InputAccel.CaptureClient.IBatchContext)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="569">Modify 'CodeModule.setEnvelopeValues(IClientTask, IBatchContext)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetupCodeModule(System.Windows.Forms.Control,Emc.InputAccel.CaptureClient.IValueAccessor)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="99">In method 'CodeModule.SetupCodeModule(Control, IValueAccessor)', call System.IDisposable.Dispose on object 'myDialog' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="TaskEvents.cs" Line="95">In externally visible method 'CodeModule.SetupCodeModule(Control, IValueAccessor)', validate parameter 'stepConfiguration' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CustomParameterEditor1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(CNO.BPA.MDWAudit.CustomParameters)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Parms" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.cs" Line="22">In member 'CustomParameterEditor1.CustomParameterEditor1(CustomParameters)', correct the casing of 'Parms' in parameter name 'ParmsCustom' by changing it to 'parms'.</Issue>
+            </Message>
+            <Message Id="Parms" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.cs" Line="22">In method 'CustomParameterEditor1.CustomParameterEditor1(CustomParameters)', correct the spelling of 'Parms' in parameter name 'ParmsCustom' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.cs" Line="29">In externally visible method 'CustomParameterEditor1.CustomParameterEditor1(CustomParameters)', validate parameter 'ParmsCustom' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_processName" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'CustomParameterEditor1._processName' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.designer.cs" Line="87">Method 'CustomParameterEditor1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Apply".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.designer.cs" Line="60">Method 'CustomParameterEditor1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Cancel".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.designer.cs" Line="157">Method 'CustomParameterEditor1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Custom Parameters".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.designer.cs" Line="99">Method 'CustomParameterEditor1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "DSN:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.designer.cs" Line="50">Method 'CustomParameterEditor1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "OK".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.designer.cs" Line="141">Method 'CustomParameterEditor1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Password:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameterEditor1.designer.cs" Line="123">Method 'CustomParameterEditor1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "User ID:".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CustomParameters" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DSN" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DSN" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit" File="CustomParameters.cs" Line="36">Correct the casing of 'DSN' in member name 'CustomParameters.DSN' by changing it to 'Dsn'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DocumentDetail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#dGUID" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'DocumentDetail.dGUID' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FaxID" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'DocumentDetail.FaxID' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FaxKey" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'DocumentDetail.FaxKey' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EnvelopeDetail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#EmailDate" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'EnvelopeDetail.EmailDate' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmailSender" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'EnvelopeDetail.EmailSender' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmailTo" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'EnvelopeDetail.EmailTo' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="CNO.BPA.MDWAudit.DataHandler">
+       <Types>
+        <Type Name="DataAccess" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Provide an overridable implementation of Dispose(bool) on 'DataAccess' or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(CNO.BPA.MDWAudit.CustomParameters&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0#" TypeName="DoNotPassTypesByReference" Category="Microsoft.Design" CheckId="CA1045" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalWarning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="14">Consider a design that does not require that 'ParmsCustom' be a reference parameter.</Issue>
+            </Message>
+            <Message Id="Parms" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="14">In member 'DataAccess.DataAccess(ref CustomParameters)', correct the casing of 'Parms' in parameter name 'ParmsCustom' by changing it to 'parms'.</Issue>
+            </Message>
+            <Message Id="Parms" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="14">In method 'DataAccess.DataAccess(ref CustomParameters)', correct the spelling of 'Parms' in parameter name 'ParmsCustom' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="43">Method 'DataAccess.DataAccess(ref CustomParameters)' passes '-266007825; Database connection information was not found.' as the 'paramName' argument to a 'ArgumentNullException' constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="Reassigned" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="31">In externally visible method 'DataAccess.DataAccess(ref CustomParameters)', validate local variable ''(*ParmsCustom)'', which was reassigned from parameter 'ParmsCustom', before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Commit()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="89">'DataAccess.Commit()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Connect()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="64">'DataAccess.Connect()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Disconnect()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="82">Modify 'DataAccess.Disconnect()' to catch a more specific exception than 'object' or rethrow the exception.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="373">Change 'DataAccess.Dispose()' to call 'GC.SuppressFinalize(object)'. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Issue>
+            </Message>
+            <Message Id="_connection" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="373">'DataAccess' contains field 'DataAccess._connection' that is of IDisposable type: 'OracleConnection'. Change the Dispose method on 'DataAccess' to call Dispose or Close on this field.</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="373">Modify 'DataAccess.Dispose()' so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GenerateCommand(System.String,System.Data.CommandType)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="109">In method 'DataAccess.GenerateCommand(string, CommandType)', object 'cmd' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="109">The query string passed to 'OracleCommand.OracleCommand(string, OracleConnection)' in 'DataAccess.GenerateCommand(string, CommandType)' could contain the following variables 'commandText'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getBatchNo()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="143">'DataAccess.getBatchNo()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="152">'DataAccess.getBatchNo()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="121">Correct the casing of 'get' in member name 'DataAccess.getBatchNo()' by changing it to 'Get'.</Issue>
+            </Message>
+            <Message Id="DataAccess" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="152">Correct the spelling of the unrecognized token 'DataAccess' in the literal '"DataHandler.DataAccess.getBatchNo: "'.</Issue>
+            </Message>
+            <Message Id="DataHandler" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="152">Correct the spelling of the unrecognized token 'DataHandler' in the literal '"DataHandler.DataAccess.getBatchNo: "'.</Issue>
+            </Message>
+            <Message Id="getBatchNo" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="152">Correct the spelling of the unrecognized token 'getBatchNo' in the literal '"DataHandler.DataAccess.getBatchNo: "'.</Issue>
+            </Message>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="135">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.getBatchNo()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="121">Change 'DataAccess.getBatchNo()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getDepartmentDetails()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="212">In method 'DataAccess.getDepartmentDetails()', call System.IDisposable.Dispose on object 'DataSetResults' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="230">'DataAccess.getDepartmentDetails()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="255">'DataAccess.getDepartmentDetails()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="212">Correct the casing of 'get' in member name 'DataAccess.getDepartmentDetails()' by changing it to 'Get'.</Issue>
+            </Message>
+            <Message Id="DataAccess" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="255">Correct the spelling of the unrecognized token 'DataAccess' in the literal '"DataHandler.DataAccess.getDepartmentDetails: "'.</Issue>
+            </Message>
+            <Message Id="DataHandler" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="255">Correct the spelling of the unrecognized token 'DataHandler' in the literal '"DataHandler.DataAccess.getDepartmentDetails: "'.</Issue>
+            </Message>
+            <Message Id="getDepartmentDetails" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="255">Correct the spelling of the unrecognized token 'getDepartmentDetails' in the literal '"DataHandler.DataAccess.getDepartmentDetails: "'.</Issue>
+            </Message>
+            <Message TypeName="SetLocaleForDataTypes" Category="Microsoft.Globalization" CheckId="CA1306" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="212">Be sure to set the DataSet Locale property wherever 'DataAccess.getDepartmentDetails()' creates an instance of that type.</Issue>
+             <Issue Certainty="90" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="239">Be sure to set the DataTable Locale property wherever 'DataAccess.getDepartmentDetails()' creates an instance of that type.</Issue>
+            </Message>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="227">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.getDepartmentDetails()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="212">Change 'DataAccess.getDepartmentDetails()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getMDWMappings()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="179">'DataAccess.getMDWMappings()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="205">'DataAccess.getMDWMappings()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="MDW" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="159">Correct the casing of 'MDW' in member name 'DataAccess.getMDWMappings()' by changing it to 'Mdw'.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="159">Correct the casing of 'get' in member name 'DataAccess.getMDWMappings()' by changing it to 'Get'.</Issue>
+            </Message>
+            <Message Id="DataAccess" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="205">Correct the spelling of the unrecognized token 'DataAccess' in the literal '"DataHandler.DataAccess.getMDWMappings: "'.</Issue>
+            </Message>
+            <Message Id="DataHandler" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="205">Correct the spelling of the unrecognized token 'DataHandler' in the literal '"DataHandler.DataAccess.getMDWMappings: "'.</Issue>
+            </Message>
+            <Message Id="getMDWMappings" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="205">Correct the spelling of the unrecognized token 'getMDWMappings' in the literal '"DataHandler.DataAccess.getMDWMappings: "'.</Issue>
+            </Message>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="176">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.getMDWMappings()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="159">Change 'DataAccess.getMDWMappings()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getScannerID()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="284">'DataAccess.getScannerID()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="293">'DataAccess.getScannerID()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="262">Correct the casing of 'ID' in member name 'DataAccess.getScannerID()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="262">Correct the casing of 'get' in member name 'DataAccess.getScannerID()' by changing it to 'Get'.</Issue>
+            </Message>
+            <Message Id="DataAccess" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="293">Correct the spelling of the unrecognized token 'DataAccess' in the literal '"DataHandler.DataAccess.getScannerID: "'.</Issue>
+            </Message>
+            <Message Id="DataHandler" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="293">Correct the spelling of the unrecognized token 'DataHandler' in the literal '"DataHandler.DataAccess.getScannerID: "'.</Issue>
+            </Message>
+            <Message Id="getScannerID" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="293">Correct the spelling of the unrecognized token 'getScannerID' in the literal '"DataHandler.DataAccess.getScannerID: "'.</Issue>
+            </Message>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="276">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.getScannerID()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="262">Change 'DataAccess.getScannerID()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#updateFaxXref()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="317">'DataAccess.updateFaxXref()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="325">'DataAccess.updateFaxXref()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="update" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="300">Correct the casing of 'update' in member name 'DataAccess.updateFaxXref()' by changing it to 'Update'.</Issue>
+            </Message>
+            <Message Id="Xref" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="300">Correct the spelling of 'Xref' in member name 'DataAccess.updateFaxXref()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="DataAccess" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="325">Correct the spelling of the unrecognized token 'DataAccess' in the literal '"DataHandler.DataAccess.updateFaxXref: "'.</Issue>
+            </Message>
+            <Message Id="DataHandler" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="325">Correct the spelling of the unrecognized token 'DataHandler' in the literal '"DataHandler.DataAccess.updateFaxXref: "'.</Issue>
+            </Message>
+            <Message Id="updateFaxXref" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="325">Correct the spelling of the unrecognized token 'updateFaxXref' in the literal '"DataHandler.DataAccess.updateFaxXref: "'.</Issue>
+            </Message>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="315">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.updateFaxXref()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#updateImportXref()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="355">'DataAccess.updateImportXref()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="363">'DataAccess.updateImportXref()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="update" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="332">Correct the casing of 'update' in member name 'DataAccess.updateImportXref()' by changing it to 'Update'.</Issue>
+            </Message>
+            <Message Id="Xref" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="332">Correct the spelling of 'Xref' in member name 'DataAccess.updateImportXref()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="DataAccess" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="363">Correct the spelling of the unrecognized token 'DataAccess' in the literal '"DataHandler.DataAccess.updateImportXref: "'.</Issue>
+            </Message>
+            <Message Id="DataHandler" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="363">Correct the spelling of the unrecognized token 'DataHandler' in the literal '"DataHandler.DataAccess.updateImportXref: "'.</Issue>
+            </Message>
+            <Message Id="updateImportXref" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="363">Correct the spelling of the unrecognized token 'updateImportXref' in the literal '"DataHandler.DataAccess.updateImportXref: "'.</Issue>
+            </Message>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="338">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.updateImportXref()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="340">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.updateImportXref()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="DataAccess.cs" Line="353">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'DataAccess.updateImportXref()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DBUtilities" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">'DBUtilities' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#CreateAndAddParameter(System.String,System.Data.OracleClient.OracleType,System.Data.ParameterDirection,System.Data.OracleClient.OracleCommand)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\DataHandler" File="Utilities.cs" Line="63">'DBUtilities.CreateAndAddParameter(string, OracleType, ParameterDirection, OracleCommand)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="CNO.BPA.MDWAudit.Framework">
+       <Types>
+        <Type Name="Cryptography" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#DecodeFrom64(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="221">'Cryptography.DecodeFrom64(string)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="229">'Cryptography.DecodeFrom64(string)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="221">The 'this' parameter (or 'Me' in Visual Basic) of 'Cryptography.DecodeFrom64(string)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Decrypt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="154">In method 'Cryptography.Decrypt(string)', object 'memoryStream' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'memoryStream' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="140">In method 'Cryptography.Decrypt(string)', call System.IDisposable.Dispose on object 'symmetricKey' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="173">Object 'memoryStream' can be disposed more than once in method 'Cryptography.Decrypt(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 173</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="186">'Cryptography.Decrypt(string)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="118">The 'this' parameter (or 'Me' in Visual Basic) of 'Cryptography.Decrypt(string)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EncodeTo64(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="200">'Cryptography.EncodeTo64(string)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="208">'Cryptography.EncodeTo64(string)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="200">The 'this' parameter (or 'Me' in Visual Basic) of 'Cryptography.EncodeTo64(string)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Encrypt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="71">In method 'Cryptography.Encrypt(string)', object 'memoryStream' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'memoryStream' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="57">In method 'Cryptography.Encrypt(string)', call System.IDisposable.Dispose on object 'symmetricKey' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="88">Object 'memoryStream' can be disposed more than once in method 'Cryptography.Encrypt(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 88</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="99">'Cryptography.Encrypt(string)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-02 15:55:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="\\jk-desktop\dropbox\Captiva - Jae\CNO\CNO IA Implementation\IA Client Scripts - dev\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\Framework" File="Cryptography.cs" Line="35">The 'this' parameter (or 'Me' in Visual Basic) of 'Cryptography.Encrypt(string)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+   <Name>Avoid namespaces with few types</Name>
+   <Description>A namespace should generally have more than five types.</Description>
+   <Resolution Name="Default">Consider merging the types defined in '{0}' with another namespace.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182130(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812">
+   <Name>Avoid uninstantiated internal classes</Name>
+   <Description>An internal class was detected that is apparently never instantiated. This rule does not attempt to detect late-bound creation and will generate false positives if instances of a type are only created in this way (for example, by means of Activator.CreateInstance or by passing the type as an argument to a TypeConverter constructor).</Description>
+   <Resolution Name="Default">{0} is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182265(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>Avoid unused private fields</Name>
+   <Description>Private fields were detected that do not appear to be accessed within the assembly. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">It appears that field {0} is never used or is only ever assigned to. Use this field or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245042(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816">
+   <Name>Call GC.SuppressFinalize correctly</Name>
+   <Description>Call GC.SuppressFinalize to suppress finalization of your instance once Dispose has been called. Objects that implement IDisposable should call SuppressFinalize from the IDisposable.Dispose method to prevent the garbage collector from calling Object.Finalize on an object that does not require it.</Description>
+   <Resolution Name="NotCalled">Change {0} to call {1}. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182269(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Disposable fields should be disposed</Name>
+   <Description>If a type that implements IDisposable owns fields that also implement IDisposable, the encapsulating type's Dispose() implementation should call Dispose() on each disposable field.</Description>
+   <Resolution Name="Default">{0} contains field {1} that is of IDisposable type: {2}. Change the Dispose method on {0} to call Dispose or Close on this field.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="ExceptionEdge">In method {0}, object {1} is not disposed along all exception paths. Call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 88</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Do not pass literals as localized parameters</Name>
+   <Description>Literal strings that are embedded in source code are difficult to localize. Avoid passing literal strings as arguments in circumstances where a localized string is generally expected.</Description>
+   <Resolution Name="KnownValue">Method {0} passes a literal string as parameter '{1}' of a call to {2}. Retrieve the following string(s) from a resource table instead: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>Do not catch general exception types</Name>
+   <Description>You should not catch Exception or SystemException. Catching generic exception types can hide run-time problems from the library user, and can complicate debugging. You should catch only those exceptions that you can handle gracefully.</Description>
+   <Resolution Name="Default">Modify {0} to catch a more specific exception than {1} or rethrow the exception.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182137(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>Do not declare visible instance fields</Name>
+   <Description>Instance fields that are visible outside of the type that declares them, limit your ability to change the implementation details for those data items. Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the implementation details of the underlying data.</Description>
+   <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182141(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotPassTypesByReference" Category="Microsoft.Design" CheckId="CA1045">
+   <Name>Do not pass types by reference</Name>
+   <Description>Although there are legitimate times to use reference parameters, such use frequently indicates a design that does not conform to the design guidelines for managed code.</Description>
+   <Resolution Name="Default">Consider a design that does not require that {0} be a reference parameter.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182146(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201">
+   <Name>Do not raise reserved exception types</Name>
+   <Description>User code should not create and raise exceptions of certain types that are reserved by the runtime or which are of a too general exception type. Exception types that are too general include Exception, SystemException, and ApplicationException. Exception types that are reserved by the runtime include ThreadAbortException, OutOfMemoryException, ExecutionEngineException, and IndexOutOfRangeException.</Description>
+   <Resolution Name="TooGeneric">{0} creates an exception of type {1}, an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182338(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Assembly">Correct the casing of '{0}' in assembly name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="MemberAbbreviation">Correct the casing of '{0}' in member name {1} by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="MemberParameter">In member {0}, correct the casing of '{1}' in parameter name {2} by changing it to '{3}'.</Resolution>
+   <Resolution Name="Namespace">Correct the casing of '{0}' in namespace name '{1}' by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063">
+   <Name>Implement IDisposable correctly</Name>
+   <Description>All IDisposable types should implement the Dispose pattern correctly.</Description>
+   <Resolution Name="DisposeImplementation">Modify {0} so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Resolution>
+   <Resolution Name="ProvideDisposeBool">Provide an overridable implementation of Dispose(bool) on {0} or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms244737(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208">
+   <Name>Instantiate argument exceptions correctly</Name>
+   <Description>String arguments passed to constructors of ArgumentException and its derived types should be correct. Types derived from ArgumentException have inconsistent constructor overloads with respect to the message and paramName parameters as compared to ArgumentException.</Description>
+   <Resolution Name="IncorrectParameterName">Method {0} passes '{1}' as the {2} argument to a {3} constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182347(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Mark assemblies with CLSCompliantAttribute</Name>
+   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
+   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+   <Name>Mark assemblies with NeutralResourcesLanguageAttribute</Name>
+   <Description>The NeutralResourcesLanguage attribute informs the ResourceManager of the language used to render the neutral culture's resources for an assembly. When looking up resources in the same culture as the neutral resources language, the ResourceManager automatically uses the resources located in the main assembly, instead of searching for a satellite assembly with the current user interface culture for the current thread. This will improve lookup performance for the first resource you load and can reduce your working set.</Description>
+   <Resolution Name="Default">Because assembly {0} contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385967(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Mark members as static</Name>
+   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
+   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245046(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211">
+   <Name>Non-constant fields should not be visible</Name>
+   <Description>Static fields should be constant unless you carefully manage access to the field using locks. Using static variables without making them thread safe can compromise execution state. This rule applies to managed code libraries. If the analyzed assembly is an application, it is usually safe to exclude violations of this rule.</Description>
+   <Resolution Name="Default">Consider making {0} non-public or a constant.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182353(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>Rethrow to preserve stack details</Name>
+   <Description>Use the IL rethrow instruction to preserve original stack details when re-raising a caught exception.</Description>
+   <Resolution Name="Default">{0} rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="SetLocaleForDataTypes" Category="Microsoft.Globalization" CheckId="CA1306">
+   <Name>Set locale for data types</Name>
+   <Description>In most cases, Locale should be explicitly set to CultureInfo.InvariantCulture on DataSet and DataTable instances. Upon creation of a DataSet or DataTable instance, the Locale is set to the current culture. In most cases, the Locale should be set to CultureInfo.InvariantCulture to guarantee proper sorting behavior in all cultures.</Description>
+   <Resolution Name="Default">Be sure to set the {0} Locale property wherever {1} creates an instance of that type.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182188(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304">
+   <Name>Specify CultureInfo</Name>
+   <Description>If an overload exists that takes a CultureInfo argument, it should always be called in favor of an overload that does not. The CultureInfo type contains culture-specific information required for performing numeric and string operations, such as casing, formatting, and string comparisons. In scenarios where conversion and parsing behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182189(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>Specify IFormatProvider</Name>
+   <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="IFormatProviderAlternate">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be based on input from the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify {4}.</Resolution>
+   <Resolution Name="IFormatProviderAlternateString">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify {4}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="DependsOnFix">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}. If {0} has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+   <Name>Use properties where appropriate</Name>
+   <Description>Properties should be used instead of Get/Set methods in most situations. Methods are preferable to properties in the following situations: the operation is a conversion, is expensive or has an observable side-effect; the order of execution is important; calling the member twice in succession creates different results; a member is static but returns a mutable value; or the member returns an array.</Description>
+   <Resolution Name="Default">Change {0} to a property if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182181(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Resolution Name="Reassigned">In externally visible method {0}, validate local variable '{1}', which was reassigned from parameter '{2}', before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

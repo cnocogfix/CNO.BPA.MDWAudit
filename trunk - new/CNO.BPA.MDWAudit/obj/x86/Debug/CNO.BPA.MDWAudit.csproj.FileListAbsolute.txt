@@ -1,0 +1,13 @@
+\\w7user518\d$\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csprojResolveAssemblyReference.cache
+\\w7user518\d$\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+\\w7user518\d$\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+\\w7user518\d$\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.dll
+\\w7user518\d$\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.pdb
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.dll.config
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.dll
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.MDWAudit.pdb
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csprojResolveAssemblyReference.cache
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.dll
+D:\Source\CNO.BPA.MDWAudit\trunk - new\CNO.BPA.MDWAudit\obj\x86\Debug\CNO.BPA.MDWAudit.pdb

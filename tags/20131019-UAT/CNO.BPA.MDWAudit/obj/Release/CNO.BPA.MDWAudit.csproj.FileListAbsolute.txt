@@ -1,0 +1,20 @@
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\bin\Release\CNO.BPA.MDWAudit.dll
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\bin\Release\CNO.BPA.MDWAudit.pdb
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\bin\Release\Emc.InputAccel.QuickModule.ClientScriptingInterface.dll
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\bin\Release\Emc.InputAccel.ScriptEngine.Scripting.dll
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.dll
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.pdb
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\bin\Release\log4net.dll
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\bin\Release\log4net.xml
+C:\Documents and Settings\cdpeha\My Documents\Visual Studio 2008\Projects\CNO.BPA.MDWAudit\trunk\CNO.BPA.MDWAudit\bin\Release\CNO.BPA.MDWAudit.dll.config
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\bin\Release\CNO.BPA.MDWAudit.dll.config
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\bin\Release\CNO.BPA.MDWAudit.dll
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\bin\Release\CNO.BPA.MDWAudit.pdb
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\obj\Release\ResolveAssemblyReference.cache
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.CustomParameterEditor1.resources
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.csproj.GenerateResource.Cache
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.dll
+E:\SVNCode\trunk\CNO.BPA.MDWAudit\obj\Release\CNO.BPA.MDWAudit.pdb
